@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hometask 1</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+  <form action="#">
+    <div>
+      <fieldset>
+        <legend><h1>Про себе</h1></legend>
+         <label>ПІБ<input type="text" placeholder="Натисніть для введеня"></label><br><br>
+         <label>Ваша адреса<input type="text" placeholder="Натисніть для введеня"></label><br><br>
+         <label>Ваша дата народження<input type="date" placeholder="Натисніть для введеня"></label><br><br>
+         <label>Ваша електронна пошта<input type="email" placeholder="Натисніть для введеня"></label><br><br>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend><h1>Ваше місце роботи</h1></legend>
+        <label>Aдреса організації<input type="text" placeholder="Натисніть для введеня"></label><br><br>
+        <label>Cтаж роботи<input type="text" placeholder="Натисніть для введеня"></label><br><br>
+        <label>Дата початку роботи<input type="date" placeholder="Натисніть для введеня"></label><br><br>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend><h1>Статистичний опитувальник</h1></legend>
+        <label>Як оцінюєте роботу президента<input type="range" min="99" max="100" value="1"></label><br><br>
+        <label>Як оцінюєте роботу президента<textarea >Вводьте текст тут</textarea></label><br><br>
+        <label>Найкращий місяць для відпустки
+          <select name="month">
+            <option value="01">Січень</option>
+            <option value="02">Лютий</option>
+            <option value="03">Березень</option>
+            <option value="04">Квітень</option>
+            <option value="05">Травень</option>
+            <option value="06">Червень</option>
+            <option value="07">Липень</option>
+            <option value="08">Серпень</option>
+            <option value="09">Вересень</option>
+            <option value="10">Жовтень</option>
+            <option value="11">Листопад</option>
+            <option value="12">Грудень</option>
+          </select><br><br>
+        </label>
+      </fieldset>
+    </div>
+    <div>
+      <fieldset>
+        <legend><h1>Пріотети</h1></legend>
+        <h2>У виборі кави</h2>
+        <label>Сорт<input type="radio" name="Cofee"></label><br>
+        <label>Обсмаження<input type="radio" name="Cofee"></label><br>
+        <label>Приготування<input type="radio" name="Cofee"></label><br><br>
+        <h2>У виборі місця відпочинку</h2>
+        <label>Місце<input type="checkbox" name="rest" id=""></label><br>
+        <label>Пора року<input type="checkbox" name="rest" id=""></label><br>
+        <label>Бюджет<input type="checkbox" name="rest" id=""></label><br>
+        <label>Відгуки<input type="checkbox" name="rest" id=""></label><br><br>
+        <h2>У виборі авто</h2>
+        <label><select name="auto" id="">
+          <option value="легковий">легковий</option>
+          <option value="дорогий">дорогий</option>
+          <option value="швидкий">швидкий</option>
+        </select></label><br><br>
+        <h2>Їжа</h2>
+        <label>
+          <select name="" id="">
+          <optgroup label="Овочі">
+          <option value="огірок">огірок</option>
+          <option value="томат">томат</option>
+          <option value="перець">перець</option></optgroup>
+          <optgroup label="Фрукти">
+          <option value="яблука">Яблука</option>
+          <option value="Ананаси">Ананаси</option>
+          <option value="Банани">Банани</option></optgroup>
+        </select>
+      </label><br><br>
+      </fieldset>
+    </div>
+    <div>
+      <button type="submit">send</button>
+      <button type="reset">reset</button>
+    </div>
+  </form>
+  </body>
+</html>
